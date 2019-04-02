@@ -1,0 +1,26 @@
+---
+layout: default
+title: Victims | 
+excerpt: "Notable Victims of Cyber Harassment"
+---
+
+<h1>Victims of Cyber Harassment</h1>
+
+<p>Here are the stories of some notable people who have been heavily affected by cyber harassment in order of when their harassment began.</p>
+<br>
+
+{% for post in site.posts %}
+
+<div class="post main">
+    <span class="date">{{ post.date | date_to_string }}</span>
+    <img src="{{ site.baseurl }}/img/{{ post.img }}" class="img-fluid">
+    <div class="header">
+        <a href="{{ post.url }}">
+            <h1>{{ post.title }}</h1>           
+        </a>
+    </div>
+    <span class="excerpt">{{ post.excerpt }}</span>
+</div>
+
+{% endfor %}
+
