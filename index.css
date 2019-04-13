@@ -555,9 +555,6 @@ div.widget-body div.latest {
 	padding: 10px;
 	padding-bottom: 50px;
 }
-div.widget-body div.latest-post {
-	
-}
 div.widget-body div.latest h2 {
 	margin-top: -3px;
 	font-size: 80%;
@@ -605,39 +602,17 @@ div.widget {
 	margin-top: 30px;
 }
 div.widget-body {
-	padding: 0px 15px 0px 15px;
+	padding: 0px;
 	font-family: 'Open Sans', Arial, sans-serif;
 }
-div.widget-title::after {
-	
-}
 div.widget-title h3 {
-	padding-left: 15px;
+	padding-left: 20px;
+	font-size: 12pt;
 }
 /*Footer*/
-div#footer {
-
-}
-div#footer-widgets {
-}
 div#footer-widgets div.widget {
 	width: 100%;
 	float: left;
-}
-div#footer-widgets div.widget.menu ul {
-
-}
-div#footer-widgets div.widget ul {
-
-}
-div#footer-widgets div.widget div#socials ul, div.widget div#socials ul {
-
-}
-div#footer-widgets div.widget ul li a, div.widget ul li a {
-
-}
-div#footer-widgets div.widget ul li a:hover, div.widget ul li a:hover {
-
 }
 div#credits {	
 	border-top: 1px solid rgba(255,255,255,.12);
@@ -645,7 +620,7 @@ div#credits {
 	float: left;
 }
 div#credits p {
-	margin: 15px;
+	margin: 15px 0px 15px 0px;
 }
 div#credits a:hover {
 	color: #9ec596;
@@ -703,11 +678,20 @@ div#content h1 {
 	margin-bottom: 30px;
 	font-weight: bold;
 }
+
+div.post.main i {
+	color: #6ba65e;
+	font-size: 26pt;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+
 div#content p, div#content ul li, div.widget-body p, div.widget-body ul li, div#credits p, div#menu ul li a, div.post.main span {
 	font-size: 11pt;
 	text-align: left;
 }
-div#content p, div#footer p, div#credits p {
+div#content p, div#footer p {
 	margin-top: 20px;
 	line-height: 20px;
 }
@@ -992,21 +976,23 @@ div#credits p {
 		font-size: 13pt;
 		color: #6ba65e;
 		margin: 10px;
+		margin-top: -1px;
 		font-weight: bold;
 	}
 	
 	div.post.main span.excerpt, div.post.main span.date {
 		display: block;
 		margin: 15px;
+		margin-top: -20px;
 		color: rgba(255,255,255,.5);
 		font-family: 'Open Sans', Arial, sans-serif;
 	}
 
-@media (min-width: 700px) {	
-
-	div#footer-widgets div.widget {
-		width: 50%;
+	div.post.main span.excerpt.home {
+		margin-left: 55px;
 	}
+
+@media (min-width: 700px) {	
 
 	div#content {
 		padding: 20px;
@@ -1094,7 +1080,7 @@ div#credits p {
 		text-align: left;
 	}
 	div#content h3 {
-		font-size: 23pt;
+		font-size: 10pt;
 		text-align: left;
 	}
 	div#content h2 {
