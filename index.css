@@ -310,7 +310,7 @@ div#menu ul {
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
 }
 div#menu ul li a {
-	padding: 10px;
+	padding: 12px;
 	height: 40px;
 	color: rgba(255,255,255,.5);
 	text-decoration: none;
@@ -366,6 +366,14 @@ div#footer {
 
 div#footer p, div#credits p {
 	line-height: 22.75px;
+}
+
+div#footer p a {
+	color: #6ba65e;
+}
+
+div#footer p a:hover {
+	color: #9ec596;
 }
 /*Top-Menu-Right*/
 div#top-menu-right {
@@ -695,17 +703,17 @@ div#content h1 {
 	margin-bottom: 30px;
 	font-weight: bold;
 }
-div#content p, div#content ul li, div.widget-body p, div.widget-body ul li {
-	font-size: 16.25px;
+div#content p, div#content ul li, div.widget-body p, div.widget-body ul li, div#credits p, div#menu ul li a {
+	font-size: 11pt;
 	text-align: left;
 }
-div#content p {
+div#content p, div#footer p, div#credits p {
 	margin-top: 20px;
-	line-height: 30px;
+	line-height: 20px;
 }
 div#content h2, div#content h3, div#content h4, div#content h5, div#content h6 {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	line-height: 50px;
 }
 div#content ul li {
@@ -935,7 +943,6 @@ div#mobile-header div#menu {
 }
 
 div#credits p {
-	font-size: 16.25px;
 	font-family: 'Open Sans', Arial, sans-serif;
 }
 
@@ -1090,11 +1097,11 @@ div#credits p {
 		text-align: left;
 	}
 	div#content h2 {
-		font-size: 26pt;
+		font-size: 13pt;
 		text-align: left;
 	}
 	div#content h1 {
-		font-size: 30pt;
+		font-size: 15pt;
 		text-align: left;
 		margin-bottom: 30px;
 	}
