@@ -12,7 +12,7 @@ excerpt: "Notable Victims of Cyber Harassment"
 {% for post in site.posts %}
 
 <div class="post main">
-    <span class="date">{{ post.date | date_to_string }}</span>
+    <span class="date">{{ post.date | date: " %b %-d, %Y" }}</span>
     <img src="{{ site.baseurl }}/img/{{ post.img }}" class="img-fluid">
     <div class="header">
         <a href="{{ post.url }}">
