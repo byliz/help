@@ -693,17 +693,17 @@ div#content h3 {
 	text-align: left;
 }
 div#content h2 {
-	font-size: 24pt;
+	font-size: 13pt;
 	text-align: left;
 }
 div#content h1 {
-	font-size: 26pt;
+	font-size: 15pt;
 	text-align: left;
 	padding-top: 15px;
 	margin-bottom: 30px;
 	font-weight: bold;
 }
-div#content p, div#content ul li, div.widget-body p, div.widget-body ul li, div#credits p, div#menu ul li a {
+div#content p, div#content ul li, div.widget-body p, div.widget-body ul li, div#credits p, div#menu ul li a, div.post.main span {
 	font-size: 11pt;
 	text-align: left;
 }
@@ -989,8 +989,8 @@ div#credits p {
 	}
 	
 	div#content div.post.main a h1 {
+		font-size: 15pt;
 		color: #6ba65e;
-		font-size: 20pt;
 		margin: 10px;
 	}
 	
