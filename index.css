@@ -697,7 +697,7 @@ div#content h2 {
 	text-align: left;
 }
 div#content h1 {
-	font-size: 15pt;
+	font-size: 18pt;
 	text-align: left;
 	padding-top: 15px;
 	margin-bottom: 30px;
@@ -988,10 +988,11 @@ div#credits p {
 		position: relative;
 	}
 	
-	div#content div.post.main a h1 {
-		font-size: 15pt;
+	div#content div.post.main a h2 {
+		font-size: 13pt;
 		color: #6ba65e;
 		margin: 10px;
+		font-weight: bold;
 	}
 	
 	div.post.main span.excerpt, div.post.main span.date {
@@ -1101,9 +1102,10 @@ div#credits p {
 		text-align: left;
 	}
 	div#content h1 {
-		font-size: 15pt;
+		font-size: 18pt;
 		text-align: left;
 		margin-bottom: 30px;
+		font-weight: lighter;
 	}
 	div#mobile-header {
 		display: none;
