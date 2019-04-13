@@ -43,24 +43,24 @@
 
 </head>
 <body>
-  
-      <div id="mobile-header">
-        <a href="http://logout.byliz.org" class="headerlink"><p style="text-align: center;"><img src="/img/kiwibird.png" class="img-fluid logo"></p>
-        <h1>LOGOUT <span>A Guide to Surviving Cyber Harassment</span></h1></a>
 
-        <div id="mobile-menu"> <i class="nav-toggle fa fa-2x fa-bars" aria-hidden="true" id="toggle-open"></i></div>
-        <nav class="nav-menu">
+  <div id="mobile-header">
+    <a href="/" class="headerlink"><p style="text-align: center;"><img src="/img/kiwibird.png" class="img-fluid logo"></p>
+      <h1>LOGOUT <span>A Guide to Surviving Cyber Harassment</span></h1></a>
 
-          <a href="http://logout.byliz.org" class="headerlink"><p style="text-align: center;"><img src="/img/kiwibird.png" class="img-fluid logo" id="toggle-close"></p>
-        <h1>LOGOUT <span>A Guide to Surviving Cyber Harassment</span></h1></a>
+      <div id="mobile-menu"> <i class="nav-toggle fa fa-2x fa-bars" aria-hidden="true" id="toggle-open"></i></div>
+      <nav class="nav-menu">
 
-      
-        {% include categories.html %}
-      
+        <a href="/" class="headerlink"><p style="text-align: center;"><img src="/img/kiwibird.png" class="img-fluid logo" id="toggle-close"></p>
+          <h1>LOGOUT <span>A Guide to Surviving Cyber Harassment</span></h1></a>
+
+
+          {% include categories.html %}
+
         </nav>
 
       </div>
-  <a href="http://logout.byliz.org" class="headerlink"><div id="header">
+      <a href="/" class="headerlink"><div id="header">
         <p style="text-align: left;"><img src="/img/kiwibird.png" class="img-fluid logo"></p>
         <h1>LOGOUT <span>A Guide to Surviving Cyber Harassment</span></h1>
 
@@ -68,40 +68,40 @@
       <div id="menu" id="top">
 
         {% include categories.html %}
-      
+
 
       </div>
-  <div class="container-fluid">
+      <div class="container-fluid">
 
 
-    <div id="main-area">
+        <div id="main-area">
 
-      
-      
-      <div id="content">
-          <div id="innerinnercontent">
-          {{content}}
-        
+
+
+          <div id="content">
+            <div id="innerinnercontent">
+              {{content}}
+
+            </div>
+
+
+          </div>
+
         </div>
 
-        
       </div>
+      <div id="footer">
+        <div id="footer-widgets">
 
-    </div>
+          {% include widget_about.html %}
+          {% include widget_categorymenu.html %}
 
-  </div>
-  <div id="footer">
-    <div id="footer-widgets">
+        </div>
 
-      {% include widget_about.html %}
-      {% include widget_categorymenu.html %}
-      
-    </div>
 
-    
-  </div>
-{% include credits.html %}
-  
-  <script src="/index.js"></script>
-</body>
-</html>
+      </div>
+      {% include credits.html %}
+
+      <script src="/index.js" type="javascript"></script>
+    </body>
+    </html>
