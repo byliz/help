@@ -1,8 +1,61 @@
 ---
 layout: default
-title: Home | 
+title: ""
 ---
 
 <h1>Welcome!</h1>
 
 <p>WEBSITE CURRENTLY UNDER CONSTRUCTION.</p>
+
+<h2>Things in this Website</h2>
+<div class="post main">
+	<i class="fas fa-burn"></i>
+    <div class="header">
+        <a href="/about">
+            <h2 style="margin-left: 52px;">About Cyber Harassment</h2>           
+        </a>
+    </div>
+    <span class="excerpt home">Excerpt</span>
+</div>
+<div class="post main">
+	<i class="fas fa-ban"></i>
+    <div class="header">	
+        <a href="/prevention">
+            <h2 style="margin-left: 52px;">How to Prevent Cyber Harassment</h2>           
+        </a>
+    </div>
+    <span class="excerpt home">Excerpt</span>
+</div>
+<div class="post main">
+	<i class="fas fa-fire-extinguisher"></i>
+    <div class="header">
+        <a href="/fighting">
+            <h2 style="margin-left: 52px;">Fighting Cyber Harassment</h2>           
+        </a>
+    </div>
+    <span class="excerpt numbers">Numbers</span>
+    <span class="excerpt home">Fighting Cyber Harassment Fighting Cyber Harassment Fighting Cyber Harassment Fighting Cyber Harassment Fighting Cyber Harassment</span>
+</div>
+<div class="post main">
+	<i class="fas fa-heart-broken"></i>
+    <div class="header">
+        <a href="/victims">
+            <h2 style="margin-left: 52px;">Victims of Cyber Harassment</h2>           
+        </a>
+    </div>
+    <span class="excerpt home">Read and watch the stories of victims of the many different types cyber harassment.</span>
+    <span class="excerpt numbers">{% assign counter = 0 %}
+		{% for post in site.posts %}		
+		{% assign counter = counter | plus: 1 %}
+		{% endfor %}
+{{ counter }}+<br>Victims</span>
+</div>
+<div class="post main">
+    <i class="far fa-life-ring"></i>
+    <div class="header">
+        <a href="/resources">
+            <h2 style="margin-left: 52px;">Helpful Resources, References, and Credits</h2>      
+        </a>
+    </div>
+    <span class="excerpt home">Excerpt</span>
+</div>

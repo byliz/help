@@ -684,7 +684,7 @@ div.post.main i {
 	font-size: 26pt;
 	float: left;
 	margin: 10px;
-	position: relative;
+	position: absolute;
 }
 
 div#content p, div#content ul li, div.widget-body p, div.widget-body ul li, div#credits p, div#menu ul li a, div.post.main span {
@@ -695,11 +695,17 @@ div#content p, div#footer p {
 	margin-top: 20px;
 	line-height: 20px;
 }
-div#content h2, div#content h3, div#content h4, div#content h5, div#content h6 {
+div#content h3, div#content h4, div#content h5, div#content h6 {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	line-height: 50px;
 }
+div#content h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 20px;
+}
+
 div#content ul li {
 	margin-left: 25px;
 	line-height: 30px;
@@ -976,26 +982,64 @@ div#credits p {
 		font-size: 13pt;
 		color: #6ba65e;
 		margin: 10px;
-		margin-top: -1px;
+		margin-top: 15px;
+		margin-bottom: 30px;
 		font-weight: bold;
 	}
-	
-	div.post.main span.excerpt, div.post.main span.date {
+
+	div.post.main span.date {
 		display: block;
 		margin: 15px;
+		color: rgba(255,255,255,.5);
+		font-family: 'Open Sans', Arial, sans-serif;
+		line-height: 20px;
+	}
+	
+	div.post.main span.excerpt {
+		display: block;
+		padding: 10px;
 		margin-top: -20px;
 		color: rgba(255,255,255,.5);
 		font-family: 'Open Sans', Arial, sans-serif;
+		line-height: 20px;
 	}
 
 	div.post.main span.excerpt.home {
-		margin-left: 55px;
+		width: 100%;
 	}
 
-@media (min-width: 700px) {	
+	div#content, div#footer, div#credits p {
+		padding: 0px 20px 0px 20px;
+	}
+
+
+	div.post.main span.excerpt.numbers {
+		text-align: center;
+		color: white;
+	}
+
+@media (min-width: 700px) {
+
+	div.post.main span.excerpt.numbers {
+		float: right;
+		position: absolute;
+		margin-left: 70%;
+		margin-top: -6%;
+	}
+
+	div.post.main span.excerpt.home {
+		width: 50%;
+		margin-left: 52px;
+		padding: 0px;
+		padding-bottom: 10px;
+	}
 
 	div#content {
 		padding: 20px;
+	}
+
+	div#footer, div#credits p {
+		padding: 0px
 	}
 
 	div.post.main img {
@@ -1210,6 +1254,7 @@ div#credits p {
 		-webkit-transition: .5s; /* Safari */
 		transition: .5s;
 	}
+
 	div.post div.header {
 		margin-top: -340px;
 		position: absolute;
