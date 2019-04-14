@@ -1012,10 +1012,10 @@ div#credits p {
 		padding: 0px 20px 0px 20px;
 	}
 
-
 	div.post.main span.excerpt.numbers {
 		text-align: center;
 		color: white;
+		margin-top: 5px;
 	}
 
 @media (min-width: 700px) {
@@ -1024,7 +1024,8 @@ div#credits p {
 		float: right;
 		position: absolute;
 		margin-left: 70%;
-		margin-top: -6%;
+		margin-top: -7%;		
+		width: 100px;
 	}
 
 	div.post.main span.excerpt.home {
