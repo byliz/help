@@ -191,17 +191,21 @@ nav.nav-menu {
 	background-color: #333333;
 }
 
+nav.nav-menu ul {
+	padding-top: 30px;
+}
+
 nav.nav-menu ul li a {
 	font-family: 'Open Sans', Arial, sans-serif;
-	height: 49px;
+	height: 50px;
 	color: white;
-	font-weight: bold;
 	text-decoration: none;
-	font-size: 16.25px;
+	font-size: 11pt;
 }
 
 nav.nav-menu ul li {
-	padding: 16px;
+	padding: 10px;
+	padding-top: 0px;
 	border: 1px solid #464646;
 	width: 100%;
 }
