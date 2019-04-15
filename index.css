@@ -280,7 +280,7 @@ div.nav-menu {
 	transform: translate3D(0, 0, 0);
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
 
 	.nav-menu {
 		position: static;
@@ -880,7 +880,7 @@ div#content p.caption {
 }
 div#content p.date, div#post-header p.date {
 	text-align: center;
-	font-family: open sans, Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-style: italic;
 	color: gray;
 }
