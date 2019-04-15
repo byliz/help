@@ -170,14 +170,14 @@ div#mobile-menu .dropdown-content li a {
 /*Mobile Menu*/
 div#mobile-header h1, nav.nav-menu h1, div#header h1 {
 	font-family: 'Quattrocento',Georgia,serif;
-	font-size: 35px;
+	font-size: 26pt;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 div#mobile-header h1 span, nav.nav-menu h1 span {
 	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 23px;
+	font-size: 16pt;
 	letter-spacing: 0px;
 	margin-left: 10px;
 	display: block;
@@ -195,24 +195,21 @@ nav.nav-menu ul {
 	padding-top: 30px;
 }
 
-nav.nav-menu ul li a {
+nav.nav-menu ul li button {
 	font-family: 'Open Sans', Arial, sans-serif;
 	height: 50px;
 	color: white;
 	text-decoration: none;
 	font-size: 11pt;
-}
-
-nav.nav-menu ul li {
-	padding: 10px;
-	padding-top: 0px;
+	text-align: left;
+	padding: 20px;
 	border: 1px solid #464646;
 	width: 100%;
+	background-color: #333333;
 }
 
-nav.nav-menu ul li:hover {
+nav.nav-menu ul li button:hover {
 	background-color: #242424;
-	color: white;
 }
 
 div#mobile-menu {
