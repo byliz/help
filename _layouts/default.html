@@ -36,10 +36,30 @@
       });
     })(jQuery);
   </script>
+  <script>
+var html=document.querySelector("html");
+var toggleOpen=document.getElementById('toggle-open');
+var toggleClose=document.getElementById('toggle-close');
+var navMenu=document.getElementsByClassName('nav-menu')[0];
+
+
+html.addEventListener('click',function(){
+  navMenu.classList.remove('open');
+});
+
+toggleOpen.addEventListener('click',function(e){
+  e.stopPropagation();
+  navMenu.classList.toggle('open');
+});
+
+toggleClose.addEventListener('click',function(e){
+  e.stopPropagation();
+  navMenu.classList.toggle('open');
+});
+  </script>
 
   <link href="/cssreset.css" rel="stylesheet">
   <link href="/index.css" rel="stylesheet">
-  <script src="/index.js" type="javascript"></script>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
 
 </head>
