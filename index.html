@@ -3,62 +3,68 @@ layout: default
 title: ""
 ---
 
-<h1>Welcome!</h1>
+<div id="homepage">
+	<i class="fas fa-info-circle"></i>
+	<div class="homepagetext">
+		<h2>About this Website</h2>
+		<span>This website is a guide on how to prevent and fight different types of cyber harassment including cyberbullying, cyberstalking, revenge porn, and more with helpful resources for further information on these topics. This website also details the effects of cyber harassment on the harrassed and the harasser and includes stories of real cases and their outcomes. The design of this website is meant to make it a parody of <a href="https://kiwifarms.net" target="_blank">Kiwifarms.net</a>, a forum characterized in mainstream media as "the Web’s biggest community of stalkers". All the information on this website is freely available on the public Web.</span>
+	</div>
+</div>
+<br>
 
-<p>WEBSITE CURRENTLY UNDER CONSTRUCTION.</p>
+<h1>Cyber Harassment Topics</h1>
 
-<h2>Things in this Website</h2>
-<div class="post main">
+<div class="post main" style="border-radius: 4px 4px 0px 0px;">
 	<i class="fas fa-burn"></i>
-    <div class="header">
-        <a href="/about">
-            <h2 style="margin-left: 52px;">About Cyber Harassment</h2>
-        </a>
-    </div>
-    <span class="excerpt home">Learn about the different types of cyber harassment and terminology, who perpetrates it, and the ramifications of it.</span>    
-    <span class="excerpt numbers">9+<br>Answers</span>
+	<div class="header">
+		<a href="/about">
+			<h2 style="margin-left: 52px;">About Cyber Harassment</h2>
+		</a>
+	</div>
+	<span class="excerpt home">Learn about the different types of cyber harassment and terminology, who perpetrates it, and the ramifications of it.</span>    
+	<span class="excerpt numbers">9+<br>Answers</span>
 </div>
 <div class="post main">
 	<i class="fas fa-ban"></i>
-    <div class="header">	
-        <a href="/prevention">
-            <h2 style="margin-left: 52px;">How to Prevent Cyber Harassment</h2>           
-        </a>
-    </div>
-    <span class="excerpt home">Learn what to do to prevent cyber harassment from happening to you or someone you know or reduce the harm done by it.</span>    
-    <span class="excerpt numbers">7+<br>Methods</span>
+	<div class="header">	
+		<a href="/prevention">
+			<h2 style="margin-left: 52px;">How to Prevent Cyber Harassment</h2>           
+		</a>
+	</div>
+	<span class="excerpt home">Learn what to do to prevent cyber harassment from happening to you or someone you know or reduce the harm done by it.</span>    
+	<span class="excerpt numbers">7+<br>Methods</span>
 </div>
 <div class="post main">
 	<i class="fas fa-fire-extinguisher"></i>
-    <div class="header">
-        <a href="/fighting">
-            <h2 style="margin-left: 52px;">Fighting Cyber Harassment</h2>           
-        </a>
-    </div>
-    <span class="excerpt home">Learn what to do if you are or someone you know becomes a victim of cyber harassment.</span>    
-    <span class="excerpt numbers">6+<br>Solutions</span>
+	<div class="header">
+		<a href="/fighting">
+			<h2 style="margin-left: 52px;">Fighting Cyber Harassment</h2>           
+		</a>
+	</div>
+	<span class="excerpt home">Learn what to do if you are or someone you know becomes a victim of cyber harassment.</span>    
+	<span class="excerpt numbers">6+<br>Solutions</span>
 </div>
 <div class="post main">
 	<i class="fas fa-heart-broken"></i>
-    <div class="header">
-        <a href="/victims">
-            <h2 style="margin-left: 52px;">Victims of Cyber Harassment</h2>           
-        </a>
-    </div>
-    <span class="excerpt home">Read and watch the stories of victims of the many different types of cyber harassment.</span>
-    <span class="excerpt numbers">{% assign counter = 0 %}
+	<div class="header">
+		<a href="/victims">
+			<h2 style="margin-left: 52px;">Victims of Cyber Harassment</h2>           
+		</a>
+	</div>
+	<span class="excerpt home">Read and watch the stories of victims of the many different types of cyber harassment.</span>
+	<span class="excerpt numbers">{% assign counter = 0 %}
 		{% for post in site.posts %}		
 		{% assign counter = counter | plus: 1 %}
 		{% endfor %}
-{{ counter }}+<br>Stories</span>
-</div>
-<div class="post main">
-    <i class="far fa-life-ring"></i>
-    <div class="header">
-        <a href="/resources">
-            <h2 style="margin-left: 52px;">Helpful Resources, References, and Credits</h2>      
-        </a>
-    </div>
-    <span class="excerpt home">See helpful resources including more information about cyber harassment and immediate help. Also find all sources used in the creation of this website.</span>
-    <span class="excerpt numbers">15+<br>Organizations</span>
-</div>
+		{{ counter }}+<br>Stories</span>
+	</div>
+	<div class="post main" style="border-radius: 0px 0px 4px 4px;">
+		<i class="far fa-life-ring"></i>
+		<div class="header">
+			<a href="/resources">
+				<h2 style="margin-left: 52px;">Helpful Resources, References, and Credits</h2>      
+			</a>
+		</div>
+		<span class="excerpt home">See helpful resources including more information about cyber harassment and immediate help. Also find all sources used in the creation of this website.</span>
+		<span class="excerpt numbers">15+<br>Organizations</span>
+	</div>

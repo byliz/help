@@ -687,7 +687,7 @@ div.post.main i {
 	position: absolute;
 }
 
-div#content p, div#content ul li, div.widget-body p, div.widget-body ul li, div#credits p, div#menu ul li a, div.post.main span {
+div#content p, div#content ul li, div.widget-body p, div.widget-body ul li, div#credits p, div#menu ul li a, div.post.main span, div#homepage span  {
 	font-size: 11pt;
 	text-align: left;
 }
@@ -936,6 +936,13 @@ div#credits p {
 	font-family: 'Open Sans', Arial, sans-serif;
 }
 
+div#homepage {
+	border: 2px #6ba65e solid;
+	padding: 5px;
+	border-radius: 4px;
+	background-color: #383c42;
+}
+
 /*Posts Kiwifarms style*/
 
 	div.post.main {
@@ -946,7 +953,7 @@ div#credits p {
 		-webkit-transition: .3s; /* Safari */
   		transition: .3s;
 	}
-	
+
 	div.post.main:nth-of-type(odd) {
 		background-color: #383C42;
 	}
@@ -995,13 +1002,38 @@ div#credits p {
 		line-height: 20px;
 	}
 	
-	div.post.main span.excerpt {
+	div.post.main span.excerpt, div#homepage span  {
 		display: block;
 		padding: 10px;
 		margin-top: -20px;
 		color: rgba(255,255,255,.5);
 		font-family: 'Open Sans', Arial, sans-serif;
 		line-height: 20px;
+	}
+
+	div#homepage {
+		float: left;
+		margin-bottom: 30px;
+	}
+
+	div#homepage span {
+		color: white;
+		padding-left: 0px;
+	}
+
+	div#homepage div.homepagetext {
+		width: 95%;
+		float: right;
+	}
+
+	div#homepage i {
+		position: absolute;
+		float: left;
+		font-size: 18pt;
+		color: rgba(255,255,255,.5);	
+		margin-top: 55px;	
+		margin-left: 15px;
+		color: #6ba65e;
 	}
 
 	div.post.main span.excerpt.home {
