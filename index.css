@@ -1027,11 +1027,9 @@ div#homepage {
 	}
 
 	div#homepage i {
-		position: absolute;
-		float: left;
 		font-size: 18pt;
 		color: rgba(255,255,255,.5);	
-		margin-top: 55px;	
+		margin-top: 10px;	
 		margin-left: 15px;
 		color: #6ba65e;
 	}
@@ -1051,6 +1049,13 @@ div#homepage {
 	}
 
 @media (min-width: 700px) {
+
+	div#homepage i {
+		position: absolute;
+		float: left;
+		margin-top: 55px;	
+		margin-left: 15px;
+	}
 
 	div.post.main span.excerpt.numbers {
 		float: right;
